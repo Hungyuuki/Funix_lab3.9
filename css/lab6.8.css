@@ -45,7 +45,7 @@ body {
   list-style: square;
   margin-left: 20px;
 }
-..details-list li {
+.details-list li {
   margin-bottom: 10px;
 }
 /* button */
