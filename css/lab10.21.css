@@ -27,6 +27,9 @@ p {
   width: 825px;
   margin: 50px auto;
   position: relative;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 .sale {
   position: absolute;
@@ -47,6 +50,7 @@ p {
   text-transform: uppercase;
   background-color: #f7f7f7;
   padding: 15px;
+  grid-column: 1/-1;
 }
 /* product-information */
 .price {
@@ -88,6 +92,7 @@ p {
   padding: 15px;
   width: 100%;
   border-top: 4px solid black;
+  grid-column: 1/-1;
 }
 .add-cart:hover {
   color: #000;
